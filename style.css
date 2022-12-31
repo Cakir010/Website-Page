@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-padding-top: 18vh;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+}
+
+/* ================HEADER=========== */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #35424a;
+  align-items: center;
+  color: white;
+  height: 9vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 2px solid #a9508b;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+ul a {
+  padding-right: 2rem;
+  text-decoration: none;
+  color: white;
+}
+a:focus {
+  color: #a9508b;
+}
+span {
+  color: #a9508b;
+}
+
+/* ============SHOWCASE=============== */
+
+.text {
+  background-image: url(./image/showcase.jpg);
+  height: 50vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.8rem;
+  gap: 2rem;
+}
+
+/* ================SUBSCRİBE======================== */
+
+.subscribe {
+  display: flex;
+  background-color: #35424a;
+  justify-content: space-between;
+  height: 9vh;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 8.9vh;
+  left: 0;
+  z-index: 1;
+}
+
+.subscribe h3 {
+  color: white;
+  font-size: 2.2rrem;
+  letter-spacing: 0.2rem;
+}
+
+.form-a button {
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  background-color: #e84910;
+  border: none;
+}
+
+.form-a button:hover {
+  background-color: white;
+  color: #e84910;
+  font-size: 1.7rem;
+}
+.form-a input {
+  width: 25vh;
+  height: 3rem;
+}
+/* ============container========================== */
+.container {
+  display: flex;
+  text-align: center;
+  gap: 3rem;
+  padding: 1rem;
+  height: 50vh;
+}
+
+.container img {
+  width: 20%;
+}
+.container img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.container p {
+  font-size: 1.8rem;
+}
+.container h4 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* =================ABOUT KISMI=================== */
+
+#about {
+
+  
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  height:70vh;
+  line-height: 1.2;
+  /* justify-content:  */
+}
+.about_right {
+  padding: 1rem 1rem;
+  width: 65%;
+  height: 35vh;
+  color: white;
+  background-color: #35424a;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+.about_left2 {
+  margin-top: 1rem;
+  padding: 1rem;
+  color: white;
+  background-color: #35424a;
+}
+.about_left {
+  width: 95%;
+  height: 55vh;
+  font-size: 1.5rem;
+}
+.h4 {
+  font-size: large;
+  padding: 10px 2rem;
+  height: 50px;
+}
+
+/* =====================SERVİCES KISMI======================== */
+
+#services {
+  padding: 2rem;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-h4 {
+  padding-top: 0;
+}
+.website p {
+  padding-bottom: 2rem;
+}
+
+.website {
+  border: 1px solid gray;
+  background-color: #e6e6e6;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.form-ba {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.form-ba input {
+  width: 100%;
+  height: 3rem;
+}
+
+.form-ba button {
+  width: 8rem;
+  height: 3.5rem;
+  color: white;
+  border: none;
+  background-color: #e84910;
+  border-radius: 2px;
+}
+
+.frm {
+  border-radius: 10px;
+  background-color: #35424a;
+  height: 45vh;
+  width: 25%;
+  padding: 2rem;
+  margin-left: 40px;
+  color: white;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  width: 100%;
+  height: 8rem;
+}
+
+.form-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.input_baslik {
+  padding: 5px;
+  font-size: 25px;
+}
+.div-form {
+  width: 300px;
+}
+.div-form2 {
+  width: 300px;
+}
+
+.div-textarea {
+  width: 300px;
+}
+
+/* ==============FOOTER========================== */
+
+footer {
+  background-color: #35424a;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 0;
+  color: white;
+}
+
+.footer_copy img {
+  width: 10%;
+}
+footer p {
+  font-size: 2rem;
+  letter-spacing: 0.8rem;
+}
